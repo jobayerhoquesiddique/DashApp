@@ -1,0 +1,105 @@
+DashApp - Interactive Dashboard
+Project Title: DashApp - Interactive Dashboard
+
+Objective: Design a clean, modern, and highly functional user interface for "DashApp," a web-based interactive dashboard. The design should prioritize clear data visualization, intuitive navigation, and full responsiveness across desktop, tablet, and mobile devices. The data will be dynamically loaded, so focus on the presentation and interaction patterns.
+
+I. Global Design Principles & Aesthetic:
+
+Style: Clean, professional, data-focused, modern, and minimalist. Avoid clutter to ensure data clarity.
+
+Color Palette:
+
+Primary/Brand Color: A professional and calming color (e.g., a deep blue, a subtle green, or a sophisticated gray) for headers, primary buttons, and key accents.
+
+Accent Colors: 1-2 vibrant, complementary colors for charts, interactive elements, and highlights (e.g., for different data series).
+
+Neutral Palette: Various shades of gray for backgrounds, text, borders, and subtle separators.
+
+Data Visualization Colors: A clear, distinct, and accessible palette for charts (ensure good contrast and consider colorblind-friendliness).
+
+Typography:
+
+Choose 1-2 highly legible font families. A clean sans-serif is often ideal for dashboards.
+
+Define clear font sizes for: Dashboard Title (H1), Section Titles (H2), Widget Titles (H3), KPI labels, data values, body text, and smaller descriptive text.
+
+Ensure optimal line height and letter spacing for data readability.
+
+Spacing & Layout:
+
+Implement a consistent spacing system (e.g., based on an 8px or 10px grid) for padding, margins, and the arrangement of dashboard widgets.
+
+Utilize a grid system (conceptual in Figma) for organizing dashboard elements.
+
+Interactivity & States: Design clear visual feedback for all interactive elements:
+
+Hover states for buttons, links, chart segments, and table rows.
+
+Active/selected states for filters and navigation items.
+
+Iconography: Plan for consistent iconography (e.g., for navigation, filters, settings, data types).
+
+II. Core Dashboard Screens/Sections to Design (for Desktop, Tablet, and Mobile):
+
+1. Dashboard Layout / Overview Screen:
+* Overall Structure: Design the main dashboard canvas. Think about a flexible grid that can hold multiple "widgets" or data cards.
+* Header/Top Bar:
+* Dashboard Title (e.g., "DashApp - Sales Overview").
+* (Optional) User Profile/Settings icon.
+* (Optional) Global date/time filter or refresh button.
+* Sidebar Navigation (Optional, or Top Nav): If using a multi-page dashboard, design how users navigate between different views (e.g., "Sales," "Marketing," "Operations").
+* Key Performance Indicators (KPI) Cards:
+* Design 3-5 prominent cards/widgets displaying single, important metrics (e.g., "Total Revenue," "New Customers," "Conversion Rate").
+* Each card should include: Metric Value (large font), Metric Label, and a small trend indicator (e.g., up/down arrow, percentage change from previous period).
+* Main Chart Area:
+* Allocate space for 2-3 primary charts (e.g., a Line Chart for trends, a Bar Chart for comparisons, a Pie/Donut Chart for distribution).
+* Each chart should have a clear title.
+* Consider interactive elements like tooltips on hover.
+
+2. Data Visualization Widgets (Design detailed examples for each type):
+* Line Chart: For displaying trends over time.
+* Elements: Title, X-axis (time), Y-axis (value), data line(s), legend.
+* Interaction: Hover state to show specific data points.
+* Bar Chart: For comparing categories or values.
+* Elements: Title, X-axis (categories), Y-axis (value), bars, legend.
+* Interaction: Hover state.
+* Pie/Donut Chart: For showing proportions of a whole.
+* Elements: Title, segments, legend with percentages.
+* Interaction: Hover state to highlight segment and show value.
+* Table/List Widget: For displaying detailed data.
+* Elements: Title, Table Headers, Sample Data Rows.
+* (Optional) Pagination controls, basic sort indicators on columns.
+* Interaction: Hover state on rows.
+
+3. Filtering & Interaction Elements:
+* Date Range Selector: Design a component for selecting custom date ranges (e.g., "Last 7 Days," "Month to Date," "Custom Range").
+* Dropdown/Select Filters: For filtering data by categories (e.g., "Product Type," "Region").
+* Search Bar (Optional): If there's a large dataset to search.
+* Buttons: For actions like "Apply Filters," "Reset," "Export Data."
+
+4. Empty States / Loading States:
+* How will the dashboard look when data is loading? (e.g., skeleton loaders, spinners).
+* How will it look if there's no data to display for a selected filter? (e.g., "No data available" message).
+
+III. Responsiveness (Design for each breakpoint):
+
+Desktop (e.g., 1440px width): Full dashboard layout with multiple columns/widgets.
+
+Tablet (e.g., 768px width): Adjust column layouts (e.g., 2 columns instead of 3, or stacking some widgets). Navigation might collapse.
+
+Mobile (e.g., 375px width): Single-column layout. Prioritize key information. Navigation will be a hamburger menu. Charts might simplify or become scrollable horizontally.
+
+IV. Deliverables:
+
+Figma/Design Tool file containing all artboards/frames.
+
+Clearly labeled artboards for Desktop, Tablet, and Mobile views for the main dashboard overview and detailed examples of each widget type.
+
+A dedicated page or section within the Figma file documenting:
+
+Color Palette: Hex codes for all defined colors.
+
+Typography Scale: Font families, weights, and sizes for all text elements.
+
+Component Library: Examples of buttons, input fields, dropdowns, KPI cards, and chart styles.
+
